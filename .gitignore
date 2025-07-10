@@ -1,0 +1,25 @@
+# 👇 ملفات المفروض Git ما يرفعهاش
+
+# فولدر الباكدج
+/node_modules
+
+# ملفات الـ build
+/.next
+/out
+
+# ملفات البيئة الحساسة
+.env
+.env.*.local
+
+# ملفات النظام
+.DS_Store
+Thumbs.db
+
+# ملفات اللوج
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# إعدادات IDE زي VS Code
+.vscode/
+.idea/
